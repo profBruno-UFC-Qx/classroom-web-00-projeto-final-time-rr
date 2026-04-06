@@ -2,34 +2,67 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23380564)
 # :checkered_flag: NOME DO PROJETO
 
-Breve descrição do que o seu projeto faz.
+**Nelsa Variedades Online**.
+
+Sistema web desenvolvido como vitrine digital para a loja Nelsa Variedades. A plataforma permite que clientes visualizem itens disponíveis, realizem compras ou encomendas e acompanhem a disponibilidade de estoque em tempo real.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+569533 Rogério Girão de Castro
+
+596042 Raul Camurça Rabelo de Almeida
 
 ## :bulb: Objetivo Geral
-Descrever o objetivo de geral do projeto
+Desenvolver um sistema web para a Nelsa Variedades que funcione como uma vitrine digital integrada ao controle de estoque, permitindo a visualização, compra e encomenda de produtos pelos clientes, além de possibilitar a gestão eficiente dos itens e usuários por meio de diferentes níveis de acesso, contribuindo para a organização, digitalização e aumento do alcance de pequenos comércios locais.
 
 ## :eyes: Público-Alvo
-Público-alvo do projeto
+Pequenos empreendedores e clientes de comércios locais.
 
 ## :star2: Impacto Esperado
-Descreva o impacto esperado do projeto em relação ao público alvo
+Espera-se que o sistema proporcione maior praticidade, organização e acessibilidade tanto para os clientes quanto para os responsáveis pela loja.
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
-
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
+A aplicação possui os seguintes tipos de usuários:
+- Usuário não logado (visitante): pode acessar a vitrine da loja, visualizar os produtos, preços e disponibilidade em estoque.
+- Cliente (usuário logado): além das funcionalidades do visitante, pode realizar compras ou encomendas de produtos.
+- Vendedor: responsável por gerenciar os produtos e pedidos, podendo adicionar, editar ou remover itens e atualizar o estoque.
+- Administrador: possui acesso total ao sistema, podendo gerenciar produtos, pedidos e usuários (criar, editar e remover contas).
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreva ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessíveis a todos os usuários e aquelas restritas a usuários logados.
+A aplicação terá como principal objetivo servir como vitrine digital e sistema de gestão para a loja, oferecendo as seguintes funcionalidades:
+
+**Funcionalidades acessíveis a todos os usuários:**
+- Visualização dos produtos disponíveis
+- Consulta de preços e descrição dos itens
+- Verificação da disponibilidade em estoque
+- Navegação pela vitrine da loja
+
+**Funcionalidades para usuários logados (Cliente)**
+- Realizar compras ou encomendas de produtos
+- Visualizar pedidos realizados
+
+**Funcionalidades restritas (Vendedor)**
+- Cadastrar novos produtos
+- Editar informações de produtos (preço, descrição, quantidade)
+- Remover produtos
+- Atualizar status de estoque (disponível/esgotado)
+- Gerenciar pedidos dos clientes
+
+**Funcionalidades restritas (Administrador)**
+- Todas as funções do vendedor
+- Gerenciamento de usuários (criar, editar e remover contas)
+- Controle total do sistema
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema.
+**Entidades do sistema:**
+- Usuário: armazena os dados dos usuários do sistema (nome, email, senha, tipo de usuário, cliente, funcionário ou administrador).
+- Produto: contém as informações dos produtos da loja (nome, descrição, preço, quantidade em estoque, status de disponibilidade).
+- Pedido: registra as compras ou encomendas realizadas pelos clientes (data, status, valor total, usuário responsável).
+- Item do Pedido: representa os produtos incluídos em cada pedido, relacionando produto e pedido (quantidade, preço unitário).
+- Categoria: organiza os produtos por tipo (ex: roupas, acessórios, utilidades).
 
 
 ----
